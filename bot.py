@@ -65,7 +65,7 @@ async def ping(ctx):
 @bot.command(aliases=["bh"])
 async def bothelp(ctx):
     e = discord.Embed(title="Help! all commands", description="My all commands with how to use.")
-    e.set_author(name=f"{bot.user.name}", icon_url=f"{bot.user.avatar.url}")
+    e.set_author(name=f"{bot.user.name}", icon_url=f"{bot.user.avatar_url}")
     e.add_field(name="`rok?bothelp`", value="Shows this message.")
     e.add_field(name="`rok?gaming`", value="Takes you to gaming channel.")
     e.add_field(name="`rok?meme`", value="Sends random memes.")
