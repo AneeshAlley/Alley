@@ -1,4 +1,4 @@
-nextcord==2.0.0a8
+discord
 python-dotenv==0.19.2
 requests==2.27.1
 lavalink==3.1.5
